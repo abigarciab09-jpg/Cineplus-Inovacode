@@ -20,6 +20,7 @@ The Main Menu window provides access to the two main sections of the CinePlus sy
 When the user taps the Concessions image, the system takes them to the Combos screen, where they can view and select different food packages.
  On the other hand, tapping the Box Office image opens the Box Office section, where functions related to ticket purchase and management are handled. 
 This menu is designed to offer clear and simple navigation, allowing the user to quickly and efficiently access the system's main functions.
+# Movie menú 
 The CinePlus system features a movie menu interface where you select the movie. The pre-set options are: Mean Girls, IT, Puss in Boots: The Last Wish.
  These are buttons that you click, and from there, it takes you to the ticket and showtime screen.
 
