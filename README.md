@@ -4,7 +4,8 @@ CinemaPlus software consists of 8 screens, including a login screen, main menu, 
 Movie Program where you can purchase tickets and confectionery products, consisting of 8 screens
  (login, main menu, movie menu, tickets and showtimes, box office summary, combos, individual products, and purchase receipt).
  The program is aimed at the general public.
-Login:
+
+# Login:
 The CinePlus system login interface allows secure access using pre-set login credentials. In the center of the window are the Username and Password fields, 
 both clearly labeled to guide the user through the process. 
 For example, the system can use the following pre-set credentials:
@@ -12,7 +13,8 @@ For example, the system can use the following pre-set credentials:
  At the bottom are the "Login" and "Cancel" buttons. By pressing "Login," the system verifies the entered credentials and, if they match the pre-set credentials, directs the user to the Main Menu.
  By pressing "Cancel," the system closes the login window, and the user exits the program. 
 This window provides controlled and secure access, ensuring that only authorized personnel can log in to the system.
-Main Menu :
+
+# Main Menu :
 The Main Menu window provides access to the two main sections of the CinePlus system. The interface displays two interactive panels:
  Concessions and Box Office, each represented by an image for easy identification. 
 When the user taps the Concessions image, the system takes them to the Combos screen, where they can view and select different food packages.
@@ -20,12 +22,14 @@ When the user taps the Concessions image, the system takes them to the Combos sc
 This menu is designed to offer clear and simple navigation, allowing the user to quickly and efficiently access the system's main functions.
 The CinePlus system features a movie menu interface where you select the movie. The pre-set options are: Mean Girls, IT, Puss in Boots: The Last Wish.
  These are buttons that you click, and from there, it takes you to the ticket and showtime screen.
+
+# Tickets and schedules
 Tickets and Showtimes The user must select an available movie, and it will automatically take them to the list of available movies.
  Once they select their preferred movie, the system will automatically display showtimes where the movies will appear.
  Then, the user must enter their age and the number of people who will be watching the movie. 
 Once the user has finished filling in the movie details, the selected showtime, their age, and the number of people, they click the "Next" button.
 In the CinePlus software, after the showtimes and tickets screen, the "Box Office Summary" will appear.
- 
+ # Box office summary
 This summary will display:
  
 - The number of tickets selected
@@ -35,14 +39,16 @@ This summary will display:
 - The total amount spent
  
 From there, there will be two options: "Next" and "Cancel". If you select "Next", a dialog box will appear asking if you want to purchase snacks at the candy store.
-Combos:
+
+# Combos:
 The combo window is where users can choose what type of food set they want and how much of it they want. 
 First, the customer/user must specify their desired order, then the quantity. 
 The staff must then place the customer's request using the buttons. After the staff finishes placing the order
  At the bottom, you will see the quantity of product you wish to obtainUpon completion of the order,
  at the bottom there are two buttons that will be used depending on the situation; the first one, "next," will take you to the next window, which would be 
 The purchase receipt window, then we have the "Back" button; this returns you to the previous window, completely clearing the current window.
-Individual products:
+
+# Individual products:
 In this window, we can see the multiple options we have for the products represented by drawings;
  at the bottom of the product image, we find the prices Depending on the product size, in front of each price and size 
 description there are two buttons that serve to increase and decrease the quantity of products you wish to obtain 
@@ -52,6 +58,7 @@ the purchase receipt window; on the other hand, if you wish to change something 
 button to return to the previous window
 In the context of programming, a "purchase receipt window" refers to a graphical user interface that is presented to the user after they have successfully completed in cineplus.
 
+# Purchase receipt:
 Its main function is to confirm and detail the purchase made. Informs the user that the purchase has been processed correctly. It shows a clear list of the items that the user has purchased. This includes: Tickets and Movies.
 
 How many units of each item were purchased.
@@ -71,17 +78,19 @@ Contact and Support Information: Includes data so that the user can contact the 
 * **Seller's contact information:** Phone, email, support link.
 
 
-Technologies used: Python, Visual Studio Code, and wxGlade.
+# Technologies used:
+Python, Visual Studio Code, and wxGlade.
 
-Team members:
-Garcia Balbuena Camila Abigail 
-Muñoz Molina Patricia Estrella 
+# Team members:
+Product Owner (PO): Garcia Balbuena Camila Abigail 
+Scrum Master: Muñoz Molina Patricia Estrella 
+Developers:
 Vivas Vergara Carlos Yurem 
 Silva Moreno Ruth Karime
 Tapia Serrano Javier Edrei
-Biñeiros Ayala Jeraldine
+Piñeiros Ayala Jeraldine
 
-
+# Instructions for running the project
 1. Open Visual Studio CodeJust open the application as you normally would.
 2. Open the folder or fileGo to File → Open Folder… (or Open File if you're only opening one file).
 Select the folder where your file generated by wxGlade is located.Click on your .py file to view it (e.g., ventana.py).
