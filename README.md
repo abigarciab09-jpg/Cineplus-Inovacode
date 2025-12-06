@@ -82,12 +82,18 @@ Contact and Support Information: Includes data so that the user can contact the 
 Python, Visual Studio Code, and wxGlade.
 
 # Team members:
+
 Product Owner (PO): Garcia Balbuena Camila Abigail 
+
 Scrum Master: Muñoz Molina Patricia Estrella 
 Developers:
+
 Vivas Vergara Carlos Yurem 
+
 Silva Moreno Ruth Karime
+
 Tapia Serrano Javier Edrei
+
 Piñeiros Ayala Jeraldine
 
 # Instructions for running the project
